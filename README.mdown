@@ -2,49 +2,88 @@
 
 ## Available Components
 
-### Structure
+### HTML Page Markup
 
 Component       |   Usage
 --------------- | --------------- 
 Foundation      | foundation + tab
 Head (only)     | zf-head + tab
 Footer (only)   | zf-footer + tab
+
+### Structure
+#### Grid
+
+Component       |   Usage
+--------------- | --------------- 
 Full-grid       | zf-full-grid + tab
 Half-grid       | zf-half-grid + tab
 Quater-grid     | zf-quater-grid + tab
 Third-grid      | zf-third-grid + tab
 
-### Snippets
+### Navigation
 
 Component       |   Usage
 --------------- | --------------- 
-Accordion       | zf-accordion + tab
-Alert           | zf-alert + tab
-Breadcrumb      | zf-breadcrumb + tab
-Button-bar      | zf-button-bar + tab
-Button-group    | zf-button-group + tab
-Button          | zf-button + tab
-Clearing        | zf-clearing + tab
-Dropdown-button | zf-dropdown-button + tab
 Offcanvas       | zf-offcanvas + tab
+Topbar          | zf-topbar + tab
+Sidenav         | zf-sidenav + tab
+Pagination      | zf-pagination + tab
+Subnav          | zf-subnav + tab
+Breadcrumb      | zf-breadcrumb + tab
+Pagination      | zf-pagination + tab
+
+
+### Media
+
+Component       |   Usage
+--------------- | --------------- 
 Orbit           | zf-orbit + tab
 Obit-content    | zf-orbit-content + tab
-Pagination      | zf-pagination + tab
-Panel           | zf-panel + tab
+Clearing        | zf-clearing + tab
+
+### Buttons
+
+Component       |   Usage
+--------------- | --------------- 
+Button          | zf-button + tab
+Button-bar      | zf-button-bar + tab
+Button-group    | zf-button-group + tab
+Split-button    | zf-split-button + tab
+Dropdown-button | zf-dropdown-button + tab
+
+Component       |   Usage
+--------------- | --------------- 
+Alert           | zf-alert + tab
 Pricing-table   | zf-pricing-table + tab
 Progress-bar    | zf-progress-bar + tab
 Reveal          | zf-reveal + tab
-Sidenav         | zf-sidenav + tab
-Split-button    | zf-split-button + tab
-Subnav          | zf-subnav + tab
 Tabs            | zf-tabs + tab
 Topbar          | zf-topbar + tab
 Verical-tabs    | zf-vertical-tabs + tab
 
 
+### Callouts & Prompts
+
+Component       |   Usage
+--------------- | --------------- 
+Reveal          | zf-reveal + tab
+Alert           | zf-alert + tab
+Panel			| zf-panel + tab
+
+### Content
+
+Component       |   Usage
+--------------- | --------------- 
+Pricing-table   | zf-pricing-table + tab
+Progress-bar    | zf-progress-bar + tab
+Accordion		| zf-accordion + tab
+Tabs            | zf-tabs + tab
+Verical-tabs    | zf-vertical-tabs + tab
 
 
-### Contributing
+
+
+## Contributing
 
 1. Fork it.
 2. Create your feature branch (`git checkout -b my-new-feature`).
