@@ -1,75 +1,41 @@
 # ZURB Foundation 5 Emmet Snippets
 
-## Basics
-
-### HTML Page Markup 
+## Snippets (alphabetical order)
 
 Component       |   Usage
 --------------- | --------------- 
-Foundation      | foundation + tab
-Head (only)     | zf-head + tab
-Footer (only)   | zf-footer + tab
-
-### Grid
-
-Component       |   Usage
---------------- | --------------- 
-Full-grid       | zf-full-grid + tab
-Half-grid       | zf-half-grid + tab
-Quater-grid     | zf-quater-grid + tab
-Third-grid      | zf-third-grid + tab
-
-## Navigation
-
-Component       |   Usage
---------------- | --------------- 
-Offcanvas       | zf-offcanvas + tab
-Topbar          | zf-topbar + tab
-Sidenav         | zf-sidenav + tab
-Pagination      | zf-pagination + tab
-Subnav          | zf-subnav + tab
+Accordion		    | zf-accordion + tab
+Alert           | zf-alert + tab
 Breadcrumb      | zf-breadcrumb + tab
-Pagination      | zf-pagination + tab
-
-
-## Media
-
-Component       |   Usage
---------------- | --------------- 
-Orbit           | zf-orbit + tab
-Obit-content    | zf-orbit-content + tab
-Clearing        | zf-clearing + tab
-
-## Buttons
-
-Component       |   Usage
---------------- | --------------- 
 Button          | zf-button + tab
 Button-bar      | zf-button-bar + tab
 Button-group    | zf-button-group + tab
-Split-button    | zf-split-button + tab
+Clearing        | zf-clearing + tab
 Dropdown-button | zf-dropdown-button + tab
-
-
-## Callouts & Prompts
-
-Component       |   Usage
---------------- | --------------- 
-Reveal          | zf-reveal + tab
-Alert           | zf-alert + tab
-Panel			| zf-panel + tab
-
-## Content
-
-Component       |   Usage
---------------- | --------------- 
+Footer (only)   | zf-footer + tab
+Foundation      | foundation + tab
+Full-grid       | zf-full-grid + tab
+Half-grid       | zf-half-grid + tab
+Head (only)     | zf-head + tab
+Obit-content    | zf-orbit-content + tab
+Offcanvas       | zf-offcanvas + tab
+Orbit           | zf-orbit + tab
+Pagination      | zf-pagination + tab
+Pagination      | zf-pagination + tab
+Panel			      | zf-panel + tab
 Pricing-table   | zf-pricing-table + tab
 Progress-bar    | zf-progress-bar + tab
-Accordion		| zf-accordion + tab
+Quater-grid     | zf-quater-grid + tab
+Reveal          | zf-reveal + tab
+Sidenav         | zf-sidenav + tab
+Split-button    | zf-split-button + tab
+Subnav          | zf-subnav + tab
 Tabs            | zf-tabs + tab
+Third-grid      | zf-third-grid + tab
+Topbar          | zf-topbar + tab
 Verical-tabs    | zf-vertical-tabs + tab
 
-
+For the snippets ordered by category see: http://nibz.github.io/foundation-5-emmet/
 
 
 ## Contributing
