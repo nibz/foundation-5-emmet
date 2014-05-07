@@ -13,7 +13,7 @@ Footer (only)   | zf-footer + tab
 ### Snippets
 
 Component       |   Usage
-:----------     | :---------- :
+--------------- | --------------- 
 Accordion       | zf-accordion + tab
 Alert           | zf-alert + tab
 Breadcrumb      | zf-breadcrumb + tab
