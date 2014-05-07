@@ -1,242 +1,503 @@
 <!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Foundation-5-emmet by nibz</title>
+<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
+<html class="no-js" lang="en" >
 
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="wrapper">
-      <header>
-        <h1>Foundation-5-emmet</h1>
-        <p>Zurb Foundation 5 - snippets for emmet - DEMO:</p>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<title>Foundation 5</title>
+	
+	<!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/foundation.css">
+	
+	<!-- If you are using the gem version, you need this only -->
+	<link rel="stylesheet" href="css/app.css">
+	
+	<script src="js/vendor/modernizr.js"></script>
+	<style>
+		.row {padding-bottom: 15px; padding-top: 15px; border-bottom: 1px solid #eee;}
+		.stick-to-top {background: #fff; z-index: 11;}
+	</style>
+</head>
+<body>
 
-        <p class="view"><a href="https://github.com/nibz/foundation-5-emmet">View the Project on GitHub <small>nibz/foundation-5-emmet</small></a></p>
+<div class="row container"><!-opening .row.container -->
+
+<div class="row stick-to-top" style="margin-bottom: 10px">
+	<div class="columns small-3 medium-3 large-3"><b>Title:</b></div>
+	<div class="columns small-3 medium-3 large-3"><b>Shortcode:</b></div>
+	<div class="columns small-6 medium-6 large-6"><b>Output:</b></div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Accordion</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-accordion + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<dl class="accordion" data-accordion="data-accordion">
+			<dd>
+				<a href="#panel1">Accordion 1</a>
+				<div id="panel1" class="content active">Panel 1 content (this panel has the class active so it will be open at pageload)</div>
+			</dd>
+			<dd>
+				<a href="#panel2">Accordion 2</a>
+				<div id="panel2" class="content">Panel 2 Content</div>
+			</dd>
+			<dd>
+				<a href="#panel3">Accordion 3</a>
+				<div id="panel3" class="content">Panel 3 Content</div>
+			</dd>
+		</dl>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Alert</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-alert + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<!-- Optional classes: [success alert secondary] [radius round] -->
+		<div data-alert="data-alert" class="alert-box">
+			<!-- content goes in here -->
+			<a href="#" class="close">&times;</a>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Breadcrumb</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-breadcrumb + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<ul class="breadcrumbs">
+			<li><a href="#">page 1</a></li>
+			<li><a href="#">page 2</a></li>
+			<li class="unavailable"><a href="#">page 3</a></li>
+			<li class="current"><a href="#">page 4</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Button</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-button + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<!-- Size Classes: [tiny small large] -->
+		<!-- Radius Classes: [radius round] -->
+		<!-- Color Classes: [secondary success alert] -->
+		<!-- Disabled Class: disabled -->
+		<a href="#" class="button">Default Button</a>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Button-bar</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-button-bar + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<div class="button-bar">
+			<ul class="button-group">
+				<li><a href="#" class="button">Button 1</a></li>
+				<li><a href="#" class="button">Button 2</a></li>
+				<li><a href="#" class="button">Button 3</a></li>
+			</ul>
+			<ul class="button-group">
+				<li><a href="#" class="button">Button 1</a></li>
+				<li><a href="#" class="button">Button 2</a></li>
+				<li><a href="#" class="button">Button 3</a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Clearing</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-clearing + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<ul class="clearing-thumbs" data-clearing="data-clearing">
+			<li><a href="http://placehold.it/350x150&text=full-image-1"><img src="http://placehold.it/150x150&text=thumbnail-1" alt="" /></a></li>
+			<li><a href="http://placehold.it/350x150&text=full-image-2"><img src="http://placehold.it/150x150&text=thumbnail-2" alt="" /></a></li>
+			<li><a href="http://placehold.it/350x150&text=full-image-3"><img src="http://placehold.it/150x150&text=thumbnail-3" alt="" /></a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Dropdown-button</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-dropdown-button + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<!-- Size Classes: [tiny small medium large] -->
+		<!-- Color Classes: [secondary alert success] -->
+		<!-- Radius Classes: [radius round] -->
+		<a href="#" data-dropdown="drop" class="button dropdown">Dropdown Button</a><br>
+		<ul id="drop" data-dropdown-content="dropdown-content" class="f-dropdown">
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Offcanvas</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-offcanvas + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<div class="off-canvas-wrap" data-offcanvas="data-offcanvas">
+			<div class="inner-wrap">
+				<nav class="tab-bar">
+					<section class="left-small">
+						<a class="left-off-canvas-toggle menu-icon" href="#"><span></span></a>
+					</section>
+					
+					<section class="right tab-bar-section">
+						<h1 class="title">Foundation</h1>
+					</section>
+				</nav>
+				
+				<!-- Off Canvas Menu -->
+				<aside class="left-off-canvas-menu">
+					<ul class="off-canvas-list">
+						<li><label for="">Foundation</label></li>
+						<li><a href="#">Link name</a></li>
+					</ul>
+				</aside>
+				
+				<section class="main-section">
+					<!-- content goes in here -->
+				</section>
+				
+				<!-- close the off-canvas menu -->
+				<a href="#" class="exit-off-canvas"></a>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Orbit</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-orbit + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<ul class="example-orbit" data-orbit="example-orbit">
+			<li>
+				<div class="orbit-caption">image 1</div>
+				<img src="http://placehold.it/1200x450&text=image-1" alt="" />
+			</li>
+			<li>
+				<div class="orbit-caption">image 2</div>
+				<img src="http://placehold.it/1200x450&text=image-2" alt="" />
+			</li>
+			<li>
+				<div class="orbit-caption">image 3</div>
+				<img src="http://placehold.it/1200x450&text=image-3" alt="" />
+			</li>
+			<li>
+				<div class="orbit-caption">image 4</div>
+				<img src="http://placehold.it/1200x450&text=image-4" alt="" />
+			</li>
+			<li>
+				<div class="orbit-caption">image 5</div>
+				<img src="http://placehold.it/1200x450&text=image-5" alt="" />
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Orbit-content</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-orbit-content + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<ul class="example-orbit-content" data-orbit="example-orbit-content">
+			<li data-orbit-slide="headline-1">
+				<div>
+					<h2>Headline 1</h2>
+					<h3>Subheadline</h3>
+				</div>
+			</li>
+			<li data-orbit-slide="headline-2">
+				<div>
+					<h2>Headline 2</h2>
+					<h3>Subheadline</h3>
+				</div>
+			</li>
+			<li data-orbit-slide="headline-3">
+				<div>
+					<h2>Headline 3</h2>
+					<h3>Subheadline</h3>
+				</div>
+			</li>
+			<li data-orbit-slide="headline-4">
+				<div>
+					<h2>Headline 4</h2>
+					<h3>Subheadline</h3>
+				</div>
+			</li>
+			<li data-orbit-slide="headline-5">
+				<div>
+					<h2>Headline 5</h2>
+					<h3>Subheadline</h3>
+				</div>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Pagination</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-pagination + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<ul class="pagination">
+			<li class="arrow unavailable"><a href="#">&laquo;</a></li>
+			<li class="current"><a href="#">1</a></li>
+			<li><a href="#">2</a></li>
+			<li><a href="#">3</a></li>
+			<li><a href="#">4</a></li>
+			<li class="unavailable"><a href="#">&hellip;</a></li>
+			<li><a href="#">12</a></li>
+			<li><a href="#">13</a></li>
+			<li class="arrow"><a href="#">&raquo;</a></li>
+		</ul>
+	</div>
+</div>
+
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Panel</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-panel + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<div class="panel">
+			<h5>This is a callout panel.</h5>
+			<p>It's a little ostentatious, but useful for important content.</p>
+		</div>
+	</div>
+</div>
 
 
-        <ul>
-          <li><a href="https://github.com/nibz/foundation-5-emmet/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/nibz/foundation-5-emmet/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/nibz/foundation-5-emmet">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>
-<a name="welcome-to-the-foundation-5-emmet-snippets-github-page" class="anchor" href="#welcome-to-the-foundation-5-emmet-snippets-github-page"><span class="octicon octicon-link"></span></a>Welcome to the Foundation 5 emmet snippets github page</h3>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Pricing-table</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-pricing-table + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<ul class="pricing-table">
+			<li class="title">Standard</li>
+			<li class="price">$99.99</li>
+			<li class="description">An awesome description</li>
+			<li class="bullet-item">1 Database</li>
+			<li class="bullet-item">5GB Storage</li>
+			<li class="bullet-item">20 Users</li>
+			<li class="cta-button"><a href="#" class="button">Buy now</a></li>
+		</ul>
+	</div>
+</div>
 
-<p>On this page we will show some demo usage of the Foundation Emmet snippets.</p>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Progress-bar</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-progress-bar + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<!-- Container Width Classes: [small-# large-#] -->
+		<!-- Color Classes: [secondary alert success] -->
+		<!-- Radius Classes: [radius round] -->
+		<!-- Progress Width Classes: [1 - 100] -->
+		<div class="progress">
+			<span class="meter" style="width: 100%"></span>
+		</div>
+	</div>
+</div>
 
-<h1>
-<a name="zurb-foundation-5-emmet-snippets" class="anchor" href="#zurb-foundation-5-emmet-snippets"><span class="octicon octicon-link"></span></a>ZURB Foundation 5 Emmet Snippets</h1>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Reveal</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-reveal + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<a href="#" data-reveal-id="myModal">Click Me For A Modal</a>
+		
+		<div id="myModal" class="reveal-modal" data-reveal="data-reveal">
+			<h2>Awesome. I have it</h2>
+			<p class="lead">Your couch. It is mine.</p>
+			<p>Im a cool paragraph that lives inside of an even cooler modal. Wins</p>
+			<a href="#" class="close-reveal-modal">&#215;</a>
+		</div>
+	</div>
+</div>
 
-<h2>
-<a name="basics" class="anchor" href="#basics"><span class="octicon octicon-link"></span></a>Basics</h2>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Sidenav</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-sidenav + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<ul class="side-nav">
+			<li class="active"><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li class="divider"></li>
+			<li><a href="#">Link 3</a></li>
+			<li><a href="#">Link 4</a></li>
+		</ul>
+	</div>
+</div>
 
-<h3>
-<a name="html-page-markup" class="anchor" href="#html-page-markup"><span class="octicon octicon-link"></span></a>HTML Page Markup</h3>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Split-button</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-split-button + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<!-- Size Classes: [tiny small medium large] -->
+		<!-- Color Classes: [secondary alert success] -->
+		<!-- Radius Classes: [radius round] -->
+		
+		<a href="#" class="button split">Split Button<span data-dropdown="drop"></span></a><br>
+		<ul data-dropdown-content="data-dropdown-content" id="drop" class="f-dropdown">
+			<li><a href="#">Link 1</a></li>
+			<li><a href="#">Link 2</a></li>
+			<li><a href="#">Link 3</a></li>
+		</ul>
+	</div>
+</div>
 
-<table>
-<thead><tr>
-<th>Component</th>
-<th>Usage</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Foundation</td>
-<td>foundation + tab</td>
-</tr>
-<tr>
-<td>Head (only)</td>
-<td>zf-head + tab</td>
-</tr>
-<tr>
-<td>Footer (only)</td>
-<td>zf-footer + tab</td>
-</tr>
-</tbody>
-</table><h3>
-<a name="grid" class="anchor" href="#grid"><span class="octicon octicon-link"></span></a>Grid</h3>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Subnav</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-subnav + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<dl class="sub-nav">
+			<dt>Filter</dt>
+			<dd class="active"><a href="#">All</a></dd>
+			<dd><a href="#">Active</a></dd>
+			<dd><a href="#">Pending</a></dd>
+			<dd><a href="#">Suspended</a></dd>
+		</dl>
+	</div>
+</div>
 
-<table>
-<thead><tr>
-<th>Component</th>
-<th>Usage</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Full-grid</td>
-<td>zf-full-grid + tab</td>
-</tr>
-<tr>
-<td>Half-grid</td>
-<td>zf-half-grid + tab</td>
-</tr>
-<tr>
-<td>Quater-grid</td>
-<td>zf-quater-grid + tab</td>
-</tr>
-<tr>
-<td>Third-grid</td>
-<td>zf-third-grid + tab</td>
-</tr>
-</tbody>
-</table><h2>
-<a name="navigation" class="anchor" href="#navigation"><span class="octicon octicon-link"></span></a>Navigation</h2>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Tabs</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-tabs + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<dl class="tabs" data-tab="data-tab">
+			<dd class="active"><a href="#panel1">Tab 1</a></dd>
+			<dd><a href="#panel2">Tab 2</a></dd>
+			<dd><a href="#panel3">Tab 3</a></dd>
+			<dd><a href="#panel4">Tab 4</a></dd>
+		</dl>
+		<div class="tabs-content">
+			<div class="content active" id="panel1">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore quis expedita voluptate alias labore excepturi!</p>
+			</div>
+			<div class="content" id="panel2">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, aperiam ipsa rerum aspernatur laudantium dicta!</p>
+			</div>
+			<div class="content" id="panel3">
+				<p>Architecto, explicabo, officia, odio, pariatur est ut ad excepturi dolor ex quaerat inventore maiores animi.</p>
+			</div>
+			<div class="content" id="panel4">
+				<p>Aperiam, quas delectus amet earum perspiciatis hic sit beatae minima voluptates repellat fugiat dolor animi.</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-<table>
-<thead><tr>
-<th>Component</th>
-<th>Usage</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Offcanvas</td>
-<td>zf-offcanvas + tab</td>
-</tr>
-<tr>
-<td>Topbar</td>
-<td>zf-topbar + tab</td>
-</tr>
-<tr>
-<td>Sidenav</td>
-<td>zf-sidenav + tab</td>
-</tr>
-<tr>
-<td>Pagination</td>
-<td>zf-pagination + tab</td>
-</tr>
-<tr>
-<td>Subnav</td>
-<td>zf-subnav + tab</td>
-</tr>
-<tr>
-<td>Breadcrumb</td>
-<td>zf-breadcrumb + tab</td>
-</tr>
-<tr>
-<td>Pagination</td>
-<td>zf-pagination + tab</td>
-</tr>
-</tbody>
-</table><h2>
-<a name="media" class="anchor" href="#media"><span class="octicon octicon-link"></span></a>Media</h2>
+<div class="row" style="border-bottom: 0px !important">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Topbar</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-topbar + tab</div>
+	<div class="columns small-6 medium-6 large-6">See below:</div>
+</div>
+<div class="row" style="padding-top: 0 !important;">
+	<div class="columns small-12">
+		<nav class="top-bar" data-topbar="data-topbar">
+			<ul class="title-area">
+				<li class="name">
+					<h1><a href="#">Something</a></h1>
+				</li>
+				<li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+			</ul>
+			<section class="top-bar-section">
+				<!-- Right Nav Section -->
+				<ul class="right">
+					<li class="active"><a href="#">Right Nav Button Active</a></li>
+					<li class="has-dropdown">
+						<a href="#">Right Button with Dropdown</a>
+						<ul class="dropdown">
+							<li><a href="#">First link in dropdown</a></li>
+						</ul>
+					</li>
+				</ul>
+				<ul class="left">
+					<li><a href="#">Left Nav Button</a></li>
+				</ul>
+			</section>
+		</nav>
+	</div>
+</div>
 
-<table>
-<thead><tr>
-<th>Component</th>
-<th>Usage</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Orbit</td>
-<td>zf-orbit + tab</td>
-</tr>
-<tr>
-<td>Obit-content</td>
-<td>zf-orbit-content + tab</td>
-</tr>
-<tr>
-<td>Clearing</td>
-<td>zf-clearing + tab</td>
-</tr>
-</tbody>
-</table><h2>
-<a name="buttons" class="anchor" href="#buttons"><span class="octicon octicon-link"></span></a>Buttons</h2>
+<div class="row">
+	<div class="columns small-3 medium-3 large-3">
+		<b>Vertical-tabs</b>
+	</div>
+	<div class="columns small-3 medium-3 large-3">zf-vertical-tabs + tab</div>
+	<div class="columns small-6 medium-6 large-6">
+		<dl class="tabs vertical" data-tab="data-tab">
+			<dd class="active"><a href="#panel1a">Tab 1</a></dd>
+			<dd><a href="#panel2a">Tab 2a</a></dd>
+			<dd><a href="#panel3a">Tab 3a</a></dd>
+			<dd><a href="#panel4a">Tab 4a</a></dd>
+		</dl>
+		<div class="tabs-content vertical">
+			<div class="content active" id="panel1a">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, earum consequuntur eius iusto perferendis dolorem.</p>
+			</div>
+			<div class="content" id="panel2a">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, laboriosam perferendis possimus accusantium aut ullam!</p>
+			</div>
+			<div class="content" id="panel3a">
+				<p>Quasi, asperiores iure ipsam assumenda aspernatur reprehenderit optio. Minima, quibusdam tempore cum mollitia laborum incidunt!</p>
+			</div>
+			<div class="content" id="panel4a">
+				<p>Temporibus consequatur earum dicta porro excepturi voluptates commodi id culpa. Consequuntur ut pariatur eveniet ad.</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-<table>
-<thead><tr>
-<th>Component</th>
-<th>Usage</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Button</td>
-<td>zf-button + tab</td>
-</tr>
-<tr>
-<td>Button-bar</td>
-<td>zf-button-bar + tab</td>
-</tr>
-<tr>
-<td>Button-group</td>
-<td>zf-button-group + tab</td>
-</tr>
-<tr>
-<td>Split-button</td>
-<td>zf-split-button + tab</td>
-</tr>
-<tr>
-<td>Dropdown-button</td>
-<td>zf-dropdown-button + tab</td>
-</tr>
-</tbody>
-</table><h2>
-<a name="callouts--prompts" class="anchor" href="#callouts--prompts"><span class="octicon octicon-link"></span></a>Callouts &amp; Prompts</h2>
+</div><!-closing .row.container -->
 
-<table>
-<thead><tr>
-<th>Component</th>
-<th>Usage</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Reveal</td>
-<td>zf-reveal + tab</td>
-</tr>
-<tr>
-<td>Alert</td>
-<td>zf-alert + tab</td>
-</tr>
-<tr>
-<td>Panel</td>
-<td>zf-panel + tab</td>
-</tr>
-</tbody>
-</table><h2>
-<a name="content" class="anchor" href="#content"><span class="octicon octicon-link"></span></a>Content</h2>
 
-<table>
-<thead><tr>
-<th>Component</th>
-<th>Usage</th>
-</tr></thead>
-<tbody>
-<tr>
-<td>Pricing-table</td>
-<td>zf-pricing-table + tab</td>
-</tr>
-<tr>
-<td>Progress-bar</td>
-<td>zf-progress-bar + tab</td>
-</tr>
-<tr>
-<td>Accordion</td>
-<td>zf-accordion + tab</td>
-</tr>
-<tr>
-<td>Tabs</td>
-<td>zf-tabs + tab</td>
-</tr>
-<tr>
-<td>Verical-tabs</td>
-<td>zf-vertical-tabs + tab</td>
-</tr>
-</tbody>
-</table>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/nibz">nibz</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
-    <script src="javascripts/scale.fix.js"></script>
-    
-  </body>
+
+<script src="js/vendor/jquery.js"></script>
+<script src="js/jquery.sticky-kit.min.js"></script>
+<script src="js/foundation.min.js"></script>
+<script>
+	$(document).foundation();
+	$(".stick-to-top").stick_in_parent();
+</script>
+</body>
 </html>
