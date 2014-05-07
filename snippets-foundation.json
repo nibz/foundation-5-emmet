@@ -31,6 +31,7 @@
 			"zf-col" : "<div class=\"columns\">",
 			
 			"zf-accordion" : "dl.accordion[data-accordion=data-accordion]>(active-panel)>(dd*2>(a[href=#panel$@2]{Accordion $@2})>(div#panel$@2.content{Panel $@2 Content}))",
+			
 			"active-panel": "dd>(a[href=#panel$]{Accordion $})>div#panel$.content.active{Panel $ content (this panel has the class active so it will be open at pageload)}",
 			
 			"zf-alert" : "{<!-- Optional classes: [success alert secondary] [radius round] -->}>div[data-alert=data-alert].alert-box>cgh>{\n}>(a[href=#].close{&times;})",
@@ -42,6 +43,7 @@
 			"zf-button-group" : "{<!-- Button Group Optional Classes: [radius round] -->}>ul.button-group>li*3>a[href=#].button{Button $}",
 			
 			"zf-button" : "{<!-- Size Classes: [tiny small large] -->\n<!-- Radius Classes: [radius round] -->\n<!-- Color Classes: [secondary success alert] -->\n<!-- Disabled Class: disabled -->\n}>a[href=#].button{Default Button}",
+			
 			"zf-clearing" : "ul.clearing-thumbs[data-clearing=data-clearing]>(li>a[href=http://placehold.it/350x150&text=full-image-$]>img[src=http://placehold.it/150x150&text=thumbnail-$])*3",
 
 			"zf-dropdown-button": "{<!-- Size Classes: [tiny small medium large] -->\n<!-- Color Classes: [secondary alert success] -->\n<!-- Radius Classes: [radius round] -->\n}>(a[href=# data-dropdown=drop].button.dropdown{Dropdown Button})>{<br>}>ul#drop[data-dropdown-content=dropdown-content].f-dropdown>li*3>a[href=#]{Link $}",
@@ -82,20 +84,6 @@
 			
 			"zf-vertical-tab": "(dl.tabs.vertical[data-tab=data-tab]>(dd.active>a[href=#panel$a]>{Tab $})>((dd>a[href=#panel$@2a]>{Tab $@2a})*3))>div.tabs-content.vertical>(div.content.active#panel$a>p>(lorem15))>((div.content#panel$@2a>p>(lorem15))*3)",
 			
-			"zf-vs" : "<div class=\"show-for-small-only\">y",
-			"zf-vm" : "<div class=\"show-for-medium-only\">",
-			"zf-vl" : "<div class=\"show-for-large-only\">",
-			"zf-vxl" : "<div class=\"show-for-xlarge-only\">",
-			"zf-vsxxl" : "<div class=\"show-for-xxlarge-up\">",
-			"zf-vsu" : "<div class=\"show-for-small-only\">",
-			"zf-vmu" : "<div class=\"show-for-medium-only\">",
-			"zf-vlu" : "<div class=\"show-for-large-only\">",
-			"zf-vxlu" : "<div class=\"show-for-xlarge-only\">",
-			"zf-vsxxlu" : "<div class=\"show-for-xxlarge-up\">",
-			"zf-vlandscape" : "<div class=\"show-for-landscape\">",
-			"zf-vportrait" : "<div class=\"show-for-portrait\">",
-			"zf-vtoutch" : "<div class=\"show-for-touch\">",
-			"zf-vnotoutch" : "<div class=\"hide-for-touch\">",
 		},
 	}
 }
