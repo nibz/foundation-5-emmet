@@ -3,8 +3,9 @@
 ## Available Components
 
 ### Structure
+
 Component       |   Usage
-:----------     | :---------- :
+--------------- | --------------- 
 Foundation      | foundation + tab
 Head (only)     | zf-head + tab
 Footer (only)   | zf-footer + tab
