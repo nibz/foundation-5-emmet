@@ -34,7 +34,7 @@ Third-grid      | zf-third-grid + tab
 Topbar          | zf-topbar + tab
 Verical-tabs    | zf-vertical-tabs + tab
 
-For a demo of the snippets in see: http://nibz.github.io/foundation-5-emmet/
+For a demo of the snippets in use see: http://nibz.github.io/foundation-5-emmet/
 
 
 ## Contributing
