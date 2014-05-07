@@ -12,11 +12,9 @@ Button-bar      | zf-button-bar + tab
 Button-group    | zf-button-group + tab
 Clearing        | zf-clearing + tab
 Dropdown-button | zf-dropdown-button + tab
-Footer (only)   | zf-footer + tab
 Foundation      | foundation + tab
 Full-grid       | zf-full-grid + tab
 Half-grid       | zf-half-grid + tab
-Head (only)     | zf-head + tab
 Obit-content    | zf-orbit-content + tab
 Offcanvas       | zf-offcanvas + tab
 Orbit           | zf-orbit + tab
