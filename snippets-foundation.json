@@ -53,9 +53,9 @@
 			
 			"zf-offcanvas": "div.off-canvas-wrap[data-offcanvas=data-offcanvas]>div.inner-wrap>(nav.tab-bar>(section.left-small>off-canvas-icon)>{\n}>(section.right.tab-bar-section>h1.title{Foundation}))>{\n\n<!-- Off Canvas Menu -->}>(aside.left-off-canvas-menu>(ul.off-canvas-list>(li>label>{Foundation})>(li>a[href=#]{Link name})))>{\n}>(section.main-section>cgh)>{\n\n}>{<!-- close the off-canvas menu -->\n}>a[href=#].exit-off-canvas",
 			
-			"zf-orbit-content": "ul.example-orbit-content[data-orbit=example-orbit-content]>li[data-orbit-slide=headline-$]*5>div>(h2{Headline $})>(h3{Subheadline})",
-			
 			"zf-orbit": "ul.example-orbit[data-orbit=example-orbit]>li*5>(div.orbit-caption{image $})>img[src=\"http://placehold.it/1200x450&text=image-$\"]",
+			
+			"zf-orbit-content": "ul.example-orbit-content[data-orbit=example-orbit-content]>li[data-orbit-slide=headline-$]*5>div>(h2{Headline $})>(h3{Subheadline})",
 			
 			"zf-pagination": "ul.pagination>(li.arrow.unavailable>a[href=#]{&laquo;})>(li.current>a[href=#]{$})>((li>a[href=#]{$@2})*3)>(li.unavailable>a[href=#]{&hellip;})>((li>a[href=#]{$@12})*2)>(li.arrow>a[href=#]{&raquo;})",
 			
@@ -75,13 +75,13 @@
 			
 			"zf-subnav": "dl.sub-nav>(dt{Filter})>(dd.active>a[href=#]{All})>(dd>a[href=#]{Active})>(dd>a[href=#]{Pending})>(dd>a[href=#]{Suspended})",
 			
-			"zf-tab": "(dl.tabs[data-tab=data-tab]>(dd.active>a[href=#panel$]>{Tab $})>((dd>a[href=#panel$@2]>{Tab $@2})*3))>div.tabs-content>(div.content.active#panel$>p>(lorem15))>((div.content#panel$@2>p>(lorem15))*3)",
+			"zf-tabs": "(dl.tabs[data-tab=data-tab]>(dd.active>a[href=#panel$]>{Tab $})>((dd>a[href=#panel$@2]>{Tab $@2})*3))>div.tabs-content>(div.content.active#panel$>p>(lorem15))>((div.content#panel$@2>p>(lorem15))*3)",
 			
 			"zf-third-grid": "zf-row>zf-col.small-4.medium-4.large-4*3",
 			
 			"zf-topbar": "nav.top-bar[data-topbar=data-topbar]>(ul.title-area>(li.name>h1>a[href=#]>{Something})>(li.toggle-topbar.menu-icon>a[href=#]>{Menu}))>(section.top-bar-section>rns>(ul.right>(li.active>a[href=#]>{Right Nav Button Active})>(li.has-dropdown>(a[href=#]>{Right Button with Dropdown})>ul.dropdown>(li>a[href=#]>{First link in dropdown})))>(ul.left>li>a[href=#]>{Left Nav Button}))",
 			
-			"zf-vertical-tab": "(dl.tabs.vertical[data-tab=data-tab]>(dd.active>a[href=#panel$a]>{Tab $})>((dd>a[href=#panel$@2a]>{Tab $@2a})*3))>div.tabs-content.vertical>(div.content.active#panel$a>p>(lorem15))>((div.content#panel$@2a>p>(lorem15))*3)",
+			"zf-vertical-tabs": "(dl.tabs.vertical[data-tab=data-tab]>(dd.active>a[href=#panel$a]>{Tab $})>((dd>a[href=#panel$@2a]>{Tab $@2a})*3))>div.tabs-content.vertical>(div.content.active#panel$a>p>(lorem15))>((div.content#panel$@2a>p>(lorem15))*3)",
 			
 		},
 	}
