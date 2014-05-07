@@ -30,9 +30,8 @@
 			"zf-row" : "<div class=\"row\">",
 			"zf-col" : "<div class=\"columns\">",
 			
-			"zf-accordion" : "dl.accordion[data-accordion=data-accordion]>(active-panel)>(dd*2>(a[href=#panel$@2]{Accordion $@2})>(div#panel$@2.content{Panel $@2 Content}))",
-			
-			"active-panel": "dd>(a[href=#panel$]{Accordion $})>div#panel$.content.active{Panel $ content (this panel has the class active so it will be open at pageload)}",
+			"zf-accordion" : "dl.accordion[data-accordion=data-accordion]>(zf-accordion-active-panel)>(dd*2>(a[href=#panel$@2]{Accordion $@2})>(div#panel$@2.content{Panel $@2 Content}))",
+			"zf-accordion-active-panel": "dd>(a[href=#panel$]{Accordion $})>div#panel$.content.active{Panel $ content (this panel has the class active so it will be open at pageload)}",
 			
 			"zf-alert" : "{<!-- Optional classes: [success alert secondary] [radius round] -->}>div[data-alert=data-alert].alert-box>cgh>{\n}>(a[href=#].close{&times;})",
 			
