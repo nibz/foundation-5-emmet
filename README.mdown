@@ -25,6 +25,8 @@ Third-grid      | zf-third-grid + tab
 Component       |   Usage
 --------------- | --------------- 
 Offcanvas       | zf-offcanvas + tab
+Test
+--------------- | --------------- 
 Topbar          | zf-topbar + tab
 Sidenav         | zf-sidenav + tab
 Pagination      | zf-pagination + tab
