@@ -9,6 +9,10 @@ Component       |   Usage
 Foundation      | foundation + tab
 Head (only)     | zf-head + tab
 Footer (only)   | zf-footer + tab
+Full-grid       | zf-full-grid + tab
+Half-grid       | zf-half-grid + tab
+Quater-grid     | zf-quater-grid + tab
+Third-grid      | zf-third-grid + tab
 
 ### Snippets
 
@@ -22,6 +26,22 @@ Button-group    | zf-button-group + tab
 Button          | zf-button + tab
 Clearing        | zf-clearing + tab
 Dropdown-button | zf-dropdown-button + tab
+Offcanvas       | zf-offcanvas + tab
+Orbit           | zf-orbit + tab
+Obit-content    | zf-orbit-content + tab
+Pagination      | zf-pagination + tab
+Panel           | zf-panel + tab
+Pricing-table   | zf-pricing-table + tab
+Progress-bar    | zf-progress-bar + tab
+Reveal          | zf-reveal + tab
+Sidenav         | zf-sidenav + tab
+Split-button    | zf-split-button + tab
+Subnav          | zf-subnav + tab
+Tabs            | zf-tabs + tab
+Topbar          | zf-topbar + tab
+Verical-tabs    | zf-vertical-tabs + tab
+
+
 
 
 ### Contributing
