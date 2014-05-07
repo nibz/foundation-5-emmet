@@ -1,30 +1,26 @@
-## ZURB Foundation 5 Emmet Snippets
+# ZURB Foundation 5 Emmet Snippets
 
-### Available Components
+## Available Components
 
-Component        | Usage
-:--------------- | :-----------:
-Offcanvas        | zf-offcanvas + tab
-Topbar           | zf-topbar + tab
-Sidenav          | zf-sidenav + tab
-Subnav           | zf-subnav + tab
-Breadcrumbs      | zf-breadcrumb + tab
-Pagination       | zf-pagination + tab
-Orbit            | zf-orbit + tab
-Clearing         | zf-clearing + tab
-Buttons          | zf-button + tab
-Button Groups    | zf-button-group + tab
-Split Buttons    | zf-split-button + tab
-Dropdown Buttons | zf-dropdown-button + tab
-Reveal           | zf-reveal + tab
-Alerts           | zf-alert + tab
-Panels           | zf-panel + tab
-Pricing Tables   | zf-pricing-table + tab
-Progress Bars    | zf-progress-bar + tab
-Accordion        | zf-accordion + tab
-Tabs             | zf-tab + tab
-Vertical Tabs    | zf-vertical-tab + tab
+### Structure
+Component       |   Usage
+:----------     | :---------- :
+Foundation      | foundation + tab
+Head (only)     | zf-head + tab
+Footer (only)   | zf-footer + tab
 
+### Snippets
+
+Component       |   Usage
+:----------     | :---------- :
+Accordion       | zf-accordion + tab
+Alert           | zf-alert + tab
+Breadcrumb      | zf-breadcrumb + tab
+Button-bar      | zf-button-bar + tab
+Button-group    | zf-button-group + tab
+Button          | zf-button + tab
+Clearing        | zf-clearing + tab
+Dropdown-button | zf-dropdown-button + tab
 
 
 ### Contributing
