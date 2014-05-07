@@ -19,6 +19,7 @@
 			"fjquery": "\n\n<script src=\"js/vendor/jquery.js\"></script>\n<script src=\"js/foundation.min.js\"></script>",
 			"fscript": "<script>\n	\\$(document).foundation();\n</script>",
 		},
+		
 		"abbreviations": {
 			
 			"zf-head": "rbhead>(head>rbcharview>rbtitle>rbifcss>rbnormalize>rbstylesheet>rbappstylesheet>rbmodernizr)>{\n<body>\n\n${1:<!--Your content here-->}|}",
