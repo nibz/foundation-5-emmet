@@ -15,10 +15,9 @@ Dropdown-button | zf-dropdown-button + tab
 Foundation      | foundation + tab
 Full-grid       | zf-full-grid + tab
 Half-grid       | zf-half-grid + tab
-Obit-content    | zf-orbit-content + tab
 Offcanvas       | zf-offcanvas + tab
 Orbit           | zf-orbit + tab
-Pagination      | zf-pagination + tab
+Orbit-content   | zf-orbit-content + tab
 Pagination      | zf-pagination + tab
 Panel			      | zf-panel + tab
 Pricing-table   | zf-pricing-table + tab
