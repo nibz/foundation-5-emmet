@@ -1,8 +1,8 @@
 # ZURB Foundation 5 Emmet Snippets
 
-## Available Components
+## Basics
 
-### HTML Page Markup
+### HTML Page Markup 
 
 Component       |   Usage
 --------------- | --------------- 
@@ -10,8 +10,7 @@ Foundation      | foundation + tab
 Head (only)     | zf-head + tab
 Footer (only)   | zf-footer + tab
 
-### Structure
-#### Grid
+### Grid
 
 Component       |   Usage
 --------------- | --------------- 
@@ -20,7 +19,7 @@ Half-grid       | zf-half-grid + tab
 Quater-grid     | zf-quater-grid + tab
 Third-grid      | zf-third-grid + tab
 
-### Navigation
+## Navigation
 
 Component       |   Usage
 --------------- | --------------- 
@@ -33,7 +32,7 @@ Breadcrumb      | zf-breadcrumb + tab
 Pagination      | zf-pagination + tab
 
 
-### Media
+## Media
 
 Component       |   Usage
 --------------- | --------------- 
@@ -41,7 +40,7 @@ Orbit           | zf-orbit + tab
 Obit-content    | zf-orbit-content + tab
 Clearing        | zf-clearing + tab
 
-### Buttons
+## Buttons
 
 Component       |   Usage
 --------------- | --------------- 
@@ -51,18 +50,8 @@ Button-group    | zf-button-group + tab
 Split-button    | zf-split-button + tab
 Dropdown-button | zf-dropdown-button + tab
 
-Component       |   Usage
---------------- | --------------- 
-Alert           | zf-alert + tab
-Pricing-table   | zf-pricing-table + tab
-Progress-bar    | zf-progress-bar + tab
-Reveal          | zf-reveal + tab
-Tabs            | zf-tabs + tab
-Topbar          | zf-topbar + tab
-Verical-tabs    | zf-vertical-tabs + tab
 
-
-### Callouts & Prompts
+## Callouts & Prompts
 
 Component       |   Usage
 --------------- | --------------- 
@@ -70,7 +59,7 @@ Reveal          | zf-reveal + tab
 Alert           | zf-alert + tab
 Panel			| zf-panel + tab
 
-### Content
+## Content
 
 Component       |   Usage
 --------------- | --------------- 
