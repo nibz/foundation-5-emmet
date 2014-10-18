@@ -1,31 +1,28 @@
 {
 	"html" : {
-		"filters" : "html",
-		"profile" : "html",
-		
 		"snippets" : {
-			"cgh": "<!-- content goes in here -->",
-			"off-canvas-icon" : "<a class=\"left-off-canvas-toggle menu-icon\" href=\"#\"><span></span></a>",
+			"expand" : "testing a snippet",
+            "cgh" : "<!-- content goes in here -->",
+            "off-canvas-icon" : "<a class=\"left-off-canvas-toggle menu-icon\" href=\"#\"><span></span></a>",
 			"progress-meter" : "<span class=\"meter\" style=\"width: 100%\"></span>",
 			"rns" : "<!-- Right Nav Section -->\n",
-			"rbcharview" : "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n",
+            "rbcharview" : "<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n",
 			"rbtitle" : "<title>Foundation 5</title>",
 			"rbifcss" : "\n<!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->",
 			"rbnormalize" : "<link rel=\"stylesheet\" href=\"css/normalize.css\">",
 			"rbstylesheet" : "<link rel=\"stylesheet\" href=\"css/foundation.css\">",
 			"rbappstylesheet" : "\n<!-- If you are using the gem version, you need this only -->\n<link rel=\"stylesheet\" href=\"css/app.css\">",
-			"rbhead" : "<!doctype html>\n<!--[if IE 9]><html class=\"lt-ie10\" lang=\"en\" > <![endif]-->\n<html class=\"no-js\" lang=\"en\" >\n\n",
-			"rbmodernizr" : "\n<script src=\"js/vendor/modernizr.js\"></script>\n",
+            "rbhead" : "<!doctype html>\n<!--[if IE 9]><html class=\"lt-ie10\" lang=\"en\" > <![endif]-->\n<html class=\"no-js\" lang=\"en\" >\n\n",
+            "rbmodernizr" : "\n<script src=\"js/vendor/modernizr.js\"></script>\n",
 			"fjquery": "\n\n<script src=\"js/vendor/jquery.js\"></script>\n<script src=\"js/foundation.min.js\"></script>",
-			"fscript": "<script>\n\\$(document).foundation();\n</script>",
+            "fscript": "<script>\n\\$(document).foundation();\n</script>"
 		},
-		
-		"abbreviations": {
+        
+        	"abbreviations": {
+            		"zf-head": "rbhead>(head>rbcharview>rbtitle>rbifcss>rbnormalize>rbstylesheet>rbappstylesheet>rbmodernizr)>{\n<body>\n\n${1:<!--Your content here-->}|}",
+            		"zf-footer": "fjquery>fscript>{\n</body>\n</html>}",
 			
-			"zf-head": "rbhead>(head>rbcharview>rbtitle>rbifcss>rbnormalize>rbstylesheet>rbappstylesheet>rbmodernizr)>{\n<body>\n\n${1:<!--Your content here-->}|}",
-			"zf-footer": "fjquery>fscript>{\n</body>\n</html>}",
-			
-			"foundation": "zf-head>zf-footer",
+			"zf-foundation": "zf-head>zf-footer",
 			
 			"zf-row" : "<div class=\"row\">",
 			"zf-col" : "<div class=\"columns\">",
@@ -81,8 +78,7 @@
 			
 			"zf-topbar": "nav.top-bar[data-topbar=data-topbar]>(ul.title-area>(li.name>h1>a[href=#]>{Something})>(li.toggle-topbar.menu-icon>a[href=#]>{Menu}))>(section.top-bar-section>rns>(ul.right>(li.active>a[href=#]>{Right Nav Button Active})>(li.has-dropdown>(a[href=#]>{Right Button with Dropdown})>ul.dropdown>(li>a[href=#]>{First link in dropdown})))>(ul.left>li>a[href=#]>{Left Nav Button}))",
 			
-			"zf-vertical-tabs": "(dl.tabs.vertical[data-tab=data-tab]>(dd.active>a[href=#panel$a]>{Tab $})>((dd>a[href=#panel$@2a]>{Tab $@2a})*3))>div.tabs-content.vertical>(div.content.active#panel$a>p>(lorem15))>((div.content#panel$@2a>p>(lorem15))*3)",
-			
-		},
+			"zf-vertical-tabs": "(dl.tabs.vertical[data-tab=data-tab]>(dd.active>a[href=#panel$a]>{Tab $})>((dd>a[href=#panel$@2a]>{Tab $@2a})*3))>div.tabs-content.vertical>(div.content.active#panel$a>p>(lorem15))>((div.content#panel$@2a>p>(lorem15))*3)"
+        	}
 	}
 }
