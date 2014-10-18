@@ -1,7 +1,6 @@
 {
 	"html" : {
 		"snippets" : {
-			"expand" : "testing a snippet",
             "cgh" : "<!-- content goes in here -->",
             "off-canvas-icon" : "<a class=\"left-off-canvas-toggle menu-icon\" href=\"#\"><span></span></a>",
 			"progress-meter" : "<span class=\"meter\" style=\"width: 100%\"></span>",
@@ -18,10 +17,10 @@
             "fscript": "<script>\n\\$(document).foundation();\n</script>"
 		},
         
-        	"abbreviations": {
-            		"zf-head": "rbhead>(head>rbcharview>rbtitle>rbifcss>rbnormalize>rbstylesheet>rbappstylesheet>rbmodernizr)>{\n<body>\n\n${1:<!--Your content here-->}|}",
-            		"zf-footer": "fjquery>fscript>{\n</body>\n</html>}",
-			
+        "abbreviations": {
+            "zf-head": "rbhead>(head>rbcharview>rbtitle>rbifcss>rbnormalize>rbstylesheet>rbappstylesheet>rbmodernizr)>{\n<body>\n\n${1:<!--Your content here-->}|}",
+            "zf-footer": "fjquery>fscript>{\n</body>\n</html>}",
+            
 			"zf-foundation": "zf-head>zf-footer",
 			
 			"zf-row" : "<div class=\"row\">",
