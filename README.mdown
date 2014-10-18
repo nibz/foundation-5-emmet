@@ -16,7 +16,7 @@ Button-bar      | zf-button-bar + tab
 Button-group    | zf-button-group + tab
 Clearing        | zf-clearing + tab
 Dropdown-button | zf-dropdown-button + tab
-Foundation      | foundation + tab
+Foundation      | zf-foundation + tab
 Full-grid       | zf-full-grid + tab
 Half-grid       | zf-half-grid + tab
 Offcanvas       | zf-offcanvas + tab
