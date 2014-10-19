@@ -17,13 +17,15 @@
 			"rbhead" : "<!doctype html>\n<!--[if IE 9]><html class=\"lt-ie10\" lang=\"en\" > <![endif]-->\n<html class=\"no-js\" lang=\"en\" >\n\n",
 			"rbmodernizr" : "\n<script src=\"js/vendor/modernizr.js\"></script>\n",
 			"fjquery": "\n\n<script src=\"js/vendor/jquery.js\"></script>\n<script src=\"js/foundation.min.js\"></script>",
-			"fscript": "<script>\n\\$(document).foundation();\n</script>"
+			"fscript": "<script>\n\\$(document).foundation();\n</script>",
+            "endbody" : "</body>",
+            "endhtml" : "</html>"
 		},
 		
 		"abbreviations": {
 			
 			"zf-head": "rbhead>(head>rbcharview>rbtitle>rbifcss>rbnormalize>rbstylesheet>rbappstylesheet>rbmodernizr)>{\n<body>\n\n${1:<!--Your content here-->}|}",
-			"zf-footer": "fjquery>fscript>{\n</body>\n</html>}",
+			"zf-footer": "fjquery>fscript>endbody>endhtml>{}",
 			
 			"zf-foundation": "zf-head>zf-footer",
 			
