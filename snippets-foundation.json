@@ -25,7 +25,7 @@
 			"zf-head": "rbhead>(head>rbcharview>rbtitle>rbifcss>rbnormalize>rbstylesheet>rbappstylesheet>rbmodernizr)>{\n<body>\n\n${1:<!--Your content here-->}|}",
 			"zf-footer": "fjquery>fscript>{\n</body>\n</html>}",
 			
-			"foundation": "zf-head>zf-footer",
+			"zf-foundation": "zf-head>zf-footer",
 			
 			"zf-row" : "<div class=\"row\">",
 			"zf-col" : "<div class=\"columns\">",
