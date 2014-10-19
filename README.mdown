@@ -1,7 +1,5 @@
 # ZURB Foundation 5 Emmet Snippets
 
-![zf-foundation demo emmet plugin](http://nibz.github.io/foundation-5-emmet/img/zf-foundation.gif "Demonstration of emmet expanding zf-foundation")
-
 #### DEMO: http://nibz.github.io/foundation-5-emmet/
 
 ## Snippets (alphabetical order)
